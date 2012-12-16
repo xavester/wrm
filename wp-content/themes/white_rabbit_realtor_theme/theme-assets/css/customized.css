@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*General Colors*/
+#banner { background-color: #0C3044; }
+#footer { background-color: #061F2D; }
+/**/
+
+/*Sidebar Colors*/
+#sidebar_tab1 .tabs-nav a { background-color: #243E4C; }
+#top_post li .top_post_title a { color: #243E4C; }
+.sidebar_style_1 .widgettitle { color: #243E4C; }
+/**/
+
+/*Home Page Colors*/
+.column_left_home .post_preview_title a { color: #005680; }
+.column_left_home .post_preview .post_listing_price { color: #243E4C; }
+.column_left_home .post_preview .post_listing_info span { color: #005680; }
+/**/
+
+/*Single Page, Listing Post*/
+#single_page_title { color: #333; }
+.basic_style_1 p a,
+.basic_style_1 li a { color: #006699; }
+.basic_style_1 h1,
+.basic_style_1 h2,
+.basic_style_1 h3,
+.basic_style_1 h4,
+.basic_style_1 h5,
+.basic_style_1 h6 { color: #333; }
+.post_block_data .post_listing_info span { color: #006699; }
+/**/
+
+/*Listing Results*/
+.list_style .post_preview .post_preview_title a { color:#005680; }
+.list_style .post_preview .post_listing_price { color:#243E4C; }
+.list_style .post_preview .post_listing_info span { color:#005680; }
+/**/
+
+/*Listing Results Table*/
+.list_style .post_preview .post_preview_title a { color:#005680; }
+.list_style .post_preview .post_listing_price { color: #243E4C; }
+.list_style .post_preview .post_listing_info span { color: #005680; }
+.ajax_info_holder .post_preview_title a { color: #005680; }
+.cell_post_name a { color: #294B6D; }
+.ajax_info_holder .post_listing_price { color: #243E4C; }
+.ajax_info_holder .post_listing_info span { color: #005680; }
+/**/
+
+/*Footer*/
+#footer_copyright,
+#footer_copyright a { color: #9A9A9A; }
+/**/

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*** CSS Modifier for IE7 and IE6 ***/
+/** ----------------------------------------------------- **/
+
+#lava ul li ul li.dropdown_top { margin-top: -19px; }
+#lava ul li ul li { display: inline; }
+.tabs-nav li { width: 134px; }
+.tweet_list li { margin-bottom: 15px; clear: both; }
+.tweet_list .tweet_text_holder { float: right; width: 245px; margin-left: 0; }
+.footer_twitter_follow { padding-top: 25px; }
+#search_listings ul li { margin-right: 10px; }
+#search_listings { height: 85px; margin-bottom: 0; }
+.list_style .post_preview_title { display: inline-block; }
+.quick_contact_content,
+.about_us_content { margin-top: -30px; }
+.list_style .post_preview #details_box { padding-bottom: 15px; }
+.archive_table table { width: 669px; margin-left: 0; }
+/**/
+
+/*** CSS Modifier for IE6 Only ***/
+/** ----------------------------------------------------- **/
+
+* html { }
+* html #main_content_bar { margin-bottom: 15px; }
+* html #banner_page { display: none; }
+* html #lava ul li ul li.dropdown_top { margin-top: -9px; }
+* html #lava ul li ul li.dropdown_bottom { margin-bottom: -16px; }
+* html .sidebar_style_1 .widget_categories ul ul,
+* html .sidebar_style_1 .widget_pages ul ul { right: 259px; }
+* html .sidebar_style_1 .widget_categories ul ul ul,
+* html .sidebar_style_1 .widget_pages ul ul ul { right: 188px; }
+* html .footer_header_right { margin-right: -27px; }
+* html #banner_divider { display: none; }
+* html .column_left_home .post_preview_wrapper li.post_preview { width: 184px; padding-right: 8px; }
+* html #footer_tab1 .tabs-nav { border-bottom: 1px solid #CBCBCB; }
+* html #footer_tab1 .tabs-nav li { float: left; margin: 0; padding: 0; font: bold 12px Arial, Helvetica, sans-serif; width: 119px; height: 23px; }
+* html #footer_tab1 .tabs-nav a { color: #eee; text-decoration: none; display: block; line-height: 23px; text-indent: 0; text-align: center; }
+* html #footer_tab1 .footer_tab_left a { display: block; width: 119px; height: 23px; text-indent: 0; background: #18191B; }
+* html #footer_tab1 .footer_tab_right a { display: block; width: 119px; height: 23px; text-indent: 0; background: #18191B; }
+* html #footer_tab1 .footer_tab_left.tabs-selected a { width: 119px; height: 23px; color: #222; background: #CBCBCB; }
+* html #footer_tab1 .footer_tab_right.tabs-selected a { width: 119px; height: 23px; color: #222; background: #CBCBCB; }
+* html .archive_table { width: 669px; }
+/**/

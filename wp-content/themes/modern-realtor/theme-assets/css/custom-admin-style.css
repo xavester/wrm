@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap .ds_admin li { border-bottom: 1px solid #e7e7e7; padding: 5px 0 15px; margin: 0; }
+.wrap .ds_admin li:first-child { border-bottom: none; padding: 0; }
+.wrap .ds_admin li #notice { margin: 0; margin-top: 10px; }
+.wrap .ds_admin li #notice p { line-height: 18px; }
+.wrap .ds_admin .logo_preview { background: #093; margin: 10px 0; }
+.wrap .ds_admin #message { margin-bottom: 0; }
+.wrap .ds_admin li select { width: 20em; }
+.wrap .ds_ul_image_select li { width: 100px; float: left; margin: 0; padding: 0; margin-right: 5px; border: none; }
+.wrap .ds_ul_image_select div { border: 1px solid #000; }
+.wrap .ds_ul_image_select div, .wrap .ds_ul_image_select label { width: 100px; height: 100px; display: block; }
+.wrap .ds_ul_image_select p { text-align: center; }
+
+
+/* P.I.E. Float Clearing */
+.ds_clear_fix:after { content: "."; clear: both; height: 0; visibility: hidden; display: block; }
+.ds_clear_fix { display: inline-block; /* Fixes IE/Mac */ }
+/* Hides from IE-mac \*/
+* html .ds_clear_fix { height: 1%; }
+.ds_clear_fix { display: block; }
+/* End hide from IE-mac */

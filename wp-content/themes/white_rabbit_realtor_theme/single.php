@@ -48,10 +48,10 @@ endif;
 <?php 
 	if (have_posts()) :
 		while (have_posts()) : the_post();
-			if($isMedia): ?>		
+			if($isMedia) { ?>		
 				<h2 id="single_page_title"><?php echo $name ?> - <?php the_title(); ?> </h2>
 
-			<? else: ?>
+			<?php } else { ?>
 				<h2 id="single_page_title">Property Details</h2>
 
 				<div class="title_box_holder" >
@@ -60,7 +60,7 @@ endif;
 
                 </div>
 
-			<?php endif;
+			<?php }
 
 
 		 	if ( ds_get_cf('excerpt_image') || has_post_thumbnail() ) : ?>

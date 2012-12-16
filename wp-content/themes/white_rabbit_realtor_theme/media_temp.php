@@ -45,7 +45,13 @@ get_header(); ?>
             
 				<?php if ( $feature_banner->have_posts() ) : ?>
 					<?php while ( $feature_banner->have_posts() ) : $feature_banner->the_post(); ?>
-                        <li><?php ds_timthumb_image( ds_get_cf('excerpt_image'),700, 425, get_the_title(),'/images/banner-sample-image-default.jpg', 'banner_img');?></li>
+                        <li><?php 
+	                        if ( has_post_thumbnail() ) {
+								the_post_thumbnail('700x425');
+							} else {
+								//ds_timthumb_image( ds_get_cf('excerpt_image'),700, 425, get_the_title(),'/images/banner-sample-image-default.jpg', 'banner_img');
+							}
+						?></li>
                     <?php endwhile; ?>
                 <?php endif; ?>
                 
@@ -113,7 +119,7 @@ get_header(); ?>
 								if ( has_post_thumbnail() ) {
 									the_post_thumbnail('220x150');
 								} else {
-									ds_timthumb_image( ds_get_cf('excerpt_image'), 220, 150, get_the_title(),'/images/sample-thumb-default.jpg', 'post_preview_img_excerpt');
+									//ds_timthumb_image( ds_get_cf('excerpt_image'), 220, 150, get_the_title(),'/images/sample-thumb-default.jpg', 'post_preview_img_excerpt');
 								} ?>
  
                         </div>
